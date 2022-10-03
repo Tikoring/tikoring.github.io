@@ -10,8 +10,8 @@ Team Project
 Team member: 4  
 role: Frontend, Project Managing  
 Github Link: <https://github.com/Tikoring/watank>  
-![play1](../image/WATANK/play_image1.jpg "play_image1"){: width="49%" height="50%" .align-center}
-![play2](../image/WATANK/play_image2.jpg "play_image2"){: width="49%" height="50%" .align-center}  
+![play1](../image/WATANK/play_image1.JPG "play_image1"){: width="49%" height="50%" .align-center}
+![play2](../image/WATANK/play_image2.JPG "play_image2"){: width="49%" height="50%" .align-center}  
   
 ### Tech Stack
 #### Frontend
