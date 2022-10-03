@@ -10,8 +10,8 @@ Team Project
 Team member: 4  
 role: Frontend, Project Managing  
 Github Link: <https://github.com/Tikoring/watank>  
-![play1](../_data/WATANK/play_image1.jpg "play_image1")
-![play2](../_data/WATANK/play_image2.jpg "play_image2")  
+![play1](./_data/WATANK/play_image1.jpg "play_image1")
+![play2](./_data/WATANK/play_image2.jpg "play_image2")  
 
 ### Tech Stack
 #### Frontend
@@ -63,10 +63,10 @@ Team Project
 Team member: 2  
 role: Frontend, Project Managing  
 Github Link: <https://github.com/Tikoring/capstone-2022-02>  
-![index](../_data/Capstone/Index.jpg "index")
-![main](../_data/Capstone/Main.jpg "main")
-![map](../_data/Capstone/Map.jpg "map")
-![chat](../_data/Capstone/Chat.jpg "chat")
+![index](./_data/Capstone/Index.jpg "index")
+![main](./_data/Capstone/Main.jpg "main")
+![map](./_data/Capstone/Map.jpg "map")
+![chat](./_data/Capstone/Chat.jpg "chat")
   
 ### Tech Stack
 #### Frontend
