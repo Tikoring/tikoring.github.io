@@ -10,8 +10,8 @@ Team Project
 Team member: 4  
 role: Frontend, Project Managing  
 Github Link: <https://github.com/Tikoring/watank>  
-![play1](../image/WATANK/play_image1.JPG "play_image1"){: width="49%" height="50%" .align-center}
-![play2](../image/WATANK/play_image2.JPG "play_image2"){: width="49%" height="50%" .align-center}  
+![play1](../image/WATANK/play_image1.JPG "play_image1"){: width="49%" height="50%"}
+![play2](../image/WATANK/play_image2.JPG "play_image2"){: width="49%" height="50%"}  
   
 ### Tech Stack
 #### Frontend
@@ -65,11 +65,11 @@ Team Project
 Team member: 2  
 role: Frontend, Project Managing  
 Github Link: <https://github.com/Tikoring/capstone-2022-02>  
-![index](../image/Capstone/Index.jpg "index"){: width="49%" height="50%" .align-center}
-![main](../image/Capstone/Main.jpg "main"){: width="49%" height="50%" .align-center}  
+![index](../image/Capstone/Index.jpg "index"){: width="49%" height="50%"}
+![main](../image/Capstone/Main.jpg "main"){: width="49%" height="50%"}  
   
-![map](../image/Capstone/Map.jpg "map"){: width="49%" height="50%" .align-center}
-![chat](../image/Capstone/Chat.jpg "chat"){: width="49%" height="50%" .align-center}
+![map](../image/Capstone/Map.jpg "map"){: width="49%" height="50%"}
+![chat](../image/Capstone/Chat.jpg "chat"){: width="49%" height="50%"}
   
 ### Tech Stack
 #### Frontend
