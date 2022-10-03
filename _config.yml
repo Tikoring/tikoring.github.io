@@ -28,15 +28,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 domain: tikoring.github.io
 url: https://tikoring.github.io # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Tikoring
-
+theme: minima
 # Build settings
 plugins:
   - jekyll-feed
 
-plugins:
-  - jekyll-remote-theme
-
-remote_theme: zivhub/monophase@main
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

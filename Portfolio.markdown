@@ -10,20 +10,22 @@ Team Project
 Team member: 4  
 role: Frontend, Project Managing  
 Github Link: <https://github.com/Tikoring/watank>  
-![play1](./_data/WATANK/play_image1.jpg "play_image1")
-![play2](./_data/WATANK/play_image2.jpg "play_image2")  
-
+![play1](../image/WATANK/play_image1.jpg "play_image1"){: width="49%" height="50%" .align-center}
+![play2](../image/WATANK/play_image2.jpg "play_image2"){: width="49%" height="50%" .align-center}  
+  
 ### Tech Stack
 #### Frontend
 * C#
-* Unity(2020.3.18f1)
+* Unity(2020.3.18f1) 
+ 
 #### Backend
 * photon
   
 ### Description
-2D 포격 슈팅 게임
-Unity Engine을 학습하는 수업에서 모여 진행항 프로젝트입니다.
-기존 게임 중 포트리스를 벤치마킹해서 만들었고, 다 대 다 멀티 플레이를 고려해서 만들었습니다.
+2D 포격 슈팅 게임  
+Unity Engine을 학습하는 수업에서 모여 진행항 프로젝트입니다.  
+기존 게임 중 포트리스를 벤치마킹해서 만들었고, 다 대 다 멀티 플레이를 고려해서 만들었습니다.  
+현재는 프로토타입으로 탄과 캐릭터만 동기화 되어 있습니다.  
 
 ### Implementation
 * Unity Engine 자체 패키지를 활용해 키보드 입력과 지형에 따른 오브젝트 제어(Frontend, 본인외 1명)
@@ -31,7 +33,7 @@ Unity Engine을 학습하는 수업에서 모여 진행항 프로젝트입니다
 * 포탄과 지형 지물간의 상호작용(Frontend)
 * Abstract Class를 이용한 특수 스킬 구현(Frontend, 본인)
 * Photon을 이용한 플레이어 간 연결 구축(Backend)
-* 탄환가 플레이어블 캐릭터 동기화(Backend)
+* 탄환과 플레이어블 캐릭터 동기화(Backend)
 
 ### Dev Process
 * git 내에서 backend와 frontend간 branch를 나눠 결과물을 merge하는 방식 이용
@@ -63,21 +65,23 @@ Team Project
 Team member: 2  
 role: Frontend, Project Managing  
 Github Link: <https://github.com/Tikoring/capstone-2022-02>  
-![index](./_data/Capstone/Index.jpg "index")
-![main](./_data/Capstone/Main.jpg "main")
-![map](./_data/Capstone/Map.jpg "map")
-![chat](./_data/Capstone/Chat.jpg "chat")
+![index](../image/Capstone/Index.jpg "index"){: width="49%" height="50%" .align-center}
+![main](../image/Capstone/Main.jpg "main"){: width="49%" height="50%" .align-center}  
+  
+![map](../image/Capstone/Map.jpg "map"){: width="49%" height="50%" .align-center}
+![chat](../image/Capstone/Chat.jpg "chat"){: width="49%" height="50%" .align-center}
   
 ### Tech Stack
 #### Frontend
-* Flutter
+* Flutter  
+
 #### Backend
 * Dart
 * Firebase
   
 ### Description
-스포츠 파티 매칭 서비스
-국민대학교 2022 capstone design에 출품한 팀 프로젝트입니다.
+스포츠 파티 매칭 서비스  
+국민대학교 2022 capstone design에 출품한 팀 프로젝트입니다.  
 코로나가 끝나면서 외부 활동이 늘어나는 것에 주목해 새롭게 운동을 시작하는 사람, 운동을 배우려고 하는사람, 같이 운동할 사람을 찾는 경우 등 이러한 대상들에게 편의를 제공하고자 서비스를 기획하였습니다.
 서비스의 목표는 사용자의 인근에서 진행될 운동 파티를 보이거나, 사용자가 직접 운동 파티를 모집하는 형태로 사용자 간의 교류를 활성화하는 것입니다.
 
