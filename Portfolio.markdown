@@ -8,7 +8,7 @@ layout: page
 ### 2021.10-2021.12
 Team Project  
 Team member: 4  
-role: Frontend, Project Managing
+role: Frontend, Project Managing  
 Github Link: <https://github.com/Tikoring/watank>  
 ![play1](../_data/WATANK/play_image1.jpg "play_image1")
 ![play2](../_data/WATANK/play_image2.jpg "play_image2")  
@@ -61,7 +61,7 @@ Unity Engine을 학습하는 수업에서 모여 진행항 프로젝트입니다
 ## 너만오면고(캡스톤 프로젝트)
 Team Project  
 Team member: 2  
-role: Frontend, Project Managing
+role: Frontend, Project Managing  
 Github Link: <https://github.com/Tikoring/capstone-2022-02>  
 ![index](../_data/Capstone/Index.jpg "index")
 ![main](../_data/Capstone/Main.jpg "main")
