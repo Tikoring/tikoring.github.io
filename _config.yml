@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -19,17 +19,18 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Tiko's Blog
-email: swawas930@gamil.com
+email: swawas930@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-domain: tikoring.github.io
-url: https://tikoring.github.io # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  Tikoring
-theme: minima
+url: "https://tikoring.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: Tiko_Knight
+github_username:  Tiko
+
 # Build settings
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
@@ -53,14 +54,60 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+minimal_mistakes_skin: "mint"
+locale: ko-KR
+search: true
+timezone: Asia/Tokyo
+breadcrumb: true
+
 defaults:
+  # _posts
   - scope:
       path: ""
-      type: pages
+      type: posts
     values:
-      layout: single
+      show_date: true
+      comments: true
       author_profile: true
-      read_time: false
-      comments: false
-      share: true
-      related: false
+
+comments: 
+  provider: "disqus"
+  disqus: 
+    shortname: "your-disqus-shortname"
+
+author: 
+  name: "Tiko"
+  avatar: ""
+  bio: "주니어 게임 개발자(지망)"
+  location: "Seoul, Korea"
+  links: 
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Tikoring"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/Tiko_knight"
+    - label: "Google Email"
+      icon: "fas fa-at"
+      url: "mailto:swawas930@gmail.com"
+    - label: "Naver Email"
+      icon: "fas fa-at"
+      url: "mailto:swawas@naver.com"
+
+footer:
+  links: 
+    - label: "GitHub"
+      url: "https://github.com/Tikoring"
+    - label: "Twitter"
+      url: "https://twitter.com/Tiko_knight"
+
+# analytics:
+#   provider: "google-gtag"
+#   google:
+#     tracking_id: "UA-1234567-8"`
+#     anonymize_ip: false # default
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: development  # disable compression in dev environment
