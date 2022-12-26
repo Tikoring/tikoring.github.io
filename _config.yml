@@ -59,6 +59,7 @@ locale: ko-KR
 search: true
 timezone: Asia/Tokyo
 breadcrumb: true
+include: ["_pages"]
 
 defaults:
   # _posts
@@ -66,8 +67,17 @@ defaults:
       path: ""
       type: posts
     values:
+      layout: single
       show_date: true
       comments: true
+      share: true
+      related: true
+      author_profile: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
       author_profile: true
 
 comments: 
@@ -79,7 +89,9 @@ author:
   name: "Tiko"
   avatar: ""
   bio: "주니어 게임 개발자(지망)"
-  location: "Seoul, Korea"
+  location: 
+    -label: "Seoul, Korea"
+    -icon: "far fa-map-marker-alt"
   links: 
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
