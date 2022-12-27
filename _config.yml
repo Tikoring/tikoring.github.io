@@ -58,7 +58,7 @@ minimal_mistakes_skin: "mint"
 locale: ko-KR
 search: true
 timezone: Asia/Tokyo
-breadcrumb: true
+breadcrumbs: true
 include: ["_pages"]
 
 defaults:
@@ -89,9 +89,7 @@ author:
   name: "Tiko"
   avatar: ""
   bio: "주니어 게임 개발자(지망)"
-  location: 
-    -label: "Seoul, Korea"
-    -icon: "far fa-map-marker-alt"
+  location: "Seoul, Korea"
   links: 
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -123,3 +121,10 @@ compress_html:
   clippings: all
   ignore:
     envs: development  # disable compression in dev environment
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
